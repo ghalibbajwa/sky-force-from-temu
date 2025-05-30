@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Phaser Game</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .score {
+            z-index: 999;
+            color: white;
+            position: absolute;
+            font-size: 24px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+
+
+    <h4 class="score" style="margin-left: 85%;" >high score</h4>
+    <h4 class="score">score</h4>
+    <br>
+    <h4 class="score" id="addscrore">0</h4>
+    <h4 class="score" style="margin-left: 85%;" id="highscore">0</h4>
+
+
+    <script src="game.js"></script>
+
+
+    
+
+
+</body>
+
+</html>
